@@ -61,7 +61,7 @@ public class ProgressActivity extends Activity {
 		
 		// Layout
 		RelativeLayout layout = new RelativeLayout(this);
-		if (showOverlay) layout.setBackgroundColor(Color.parseColor("#FFFFFFFF"));
+		if (showOverlay) layout.setBackgroundColor(Color.parseColor("#05A283FF"));
 		layout.addView(bar);
 		
 		// Theme
